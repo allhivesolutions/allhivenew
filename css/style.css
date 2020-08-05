@@ -626,6 +626,19 @@ hr.list {
         color: white !important;
     }
 
+
+    .card-bg {
+        margin-bottom: 22% !important;
+    border-radius: 20px;
+    height: 470px;
+    background-color: #ffc82d;
+    }
+
+
+    .social {
+        display: none;
+    }
+
     .privacy-inner img {
         display: none;
     }
