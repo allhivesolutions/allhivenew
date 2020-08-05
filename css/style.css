@@ -623,7 +623,9 @@ hr.list {
   @media only screen and (max-width: 600px) {
     .getbutton {
         margin-left: 4%;
+        width: 103%;
         color: white !important;
+        font-size: 119%;
     }
 
 
