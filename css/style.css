@@ -1,17 +1,11 @@
-@font-face {
-    font-family: 'Berlin Sans FB';
-    src: local('Berlin Sans FB'), url('../font/BRLNSB.woff') format('woff');
-    }
-    
-    @font-face {
-    font-family: 'Berlin Sans FB Bold';
-    src: local('Berlin Sans FB Bold'), url('../font/BRLNSB.woff') format('woff');
-    }
-
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 body{ 
     color: #fff;
+}
+
+p {
+text-align: justify;
 }
 
 .mobilenav {
@@ -58,6 +52,10 @@ body{
     padding-top: 100px;
 }
 
+.projecttext {
+    color: black;
+}
+
 
 .getbutton {
     border-style: solid;
@@ -91,7 +89,7 @@ body{
 
 .leftwhat {
     position: relative;
-    left: 14%;
+    /* left: 14%; */
     margin-top: 13%;
     color: black;
 }
@@ -302,6 +300,7 @@ body{
 
   .rightform {
       margin-top: 5%;
+      padding-left: 50px;
   }
 
   label {
@@ -359,7 +358,7 @@ body{
     margin-top: 53px;
     color: black;
     font-size: 25px;
-    margin-left: 15%;
+    margin-left: 1%;
   }
 
   .allhive-inner {
@@ -620,14 +619,236 @@ hr.list {
       padding-top: 150px;
   }
 
+
+  /* about page css */
+
+
+  #whoarewe-section {
+        background: url(../img/Who-Are-We_01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+    }
+
+
+    .whoarewe-inner h5 {
+        color: #ffc82d;
+        font-weight: 500;
+        font-size: 100px;
+        font-family: 'Dancing Script', cursive;
+        margin-left: -36%;
+        margin-top: 40%;
+        position: absolute;
+    }
+
+    .main-inner h1 {
+        color: #ff7f00;
+        font-weight: 500;
+    }
+
+
+ 
+    .main-inner .lefttext {
+        position: relative;
+        margin-left: 9%;
+        margin-top: 6%;
+    }
+
+
+
+
+    .main-inner img {
+        margin-left: 70%;
+        margin-top: -35%;
+    }
+
+
+    #what-section {
+        background: url(../img/What\ we\ Do_01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+    }
+
+    .mainwhat-section h1 {
+        color: #ff7f00;
+        font-weight: 500;
+    }
+
+
+
+    .what-inner h5 {
+        color: #ffc82d;
+        font-weight: 500;
+        font-size: 100px;
+        font-family: 'Dancing Script', cursive;
+        margin-left: -36%;
+        margin-top: 40%;
+        position: absolute;
+    }
+
+
+    .offer-inner h1 {
+        color: #ffc82d;
+        font-weight: 500;
+        font-weight: 500;
+        font-size: 100px;
+        font-family: 'Dancing Script', cursive;
+        
+    }
+
+    .offertext {
+        padding-top: 250px;
+    }
+
+
+.mainoffer-section h1 {
+    color: #ff7f00;
+    font-weight: 500;
+    margin-top: -17%;
+}
+
+
+/* our vision css */
+
+#vision-section {
+    background: url(../img/Our\ Vission_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+
+#vision-section .vision-inner h1 {
+    color: #ffc82d;
+    font-size: 100px;
+    padding-top: 550px;
+    padding-left: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+.main-vision-inner h1 {
+    color: #ff7f00;
+}
+
+
+/* our mission */
+
+#mission-section {
+    background: url(../img/Our\ Mission_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#mission-section .mission-inner h1 {
+    color: #ffc82d;
+    font-size: 100px;
+    padding-top: 350px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.mainmission-section h1 {
+color: #ff7f00;
+font-weight: 500;
+}
+
+.rightimg img  {
+margin-left: 40%;
+}
+
+
+/* our future goal */
+#future-section {
+    background: url(../img/Our\ Future\ Goal_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#future-section .future-inner h1 {
+    color: #ffc82d;
+    font-size: 100px;
+    padding-top: 450px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main-future-inner h1 {
+    color: #ff7f00;
+    font-weight: 500;
+}
+
+
+/* join us */
+#join-section {
+    background: url(../img/Why\ Join\ Us_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#join-section .join-inner h1 {
+    color: #ffc82d;
+    float: right;
+    font-size: 100px;
+    padding-top: 450px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.main-join-inner h1 {
+    color: #ff7f00;
+    font-weight: 500;
+}
+
+
+
   @media only screen and (max-width: 600px) {
+
+
+    .allsections h5  {
+        font-size: 50px;
+        padding-left: 200px;
+        padding-top: 200px;
+    }
+
+
+    .visiontext h1 {
+        font-size: 60px !important;
+    }
+
+    .offertext h1{
+        font-size: 50px;
+        
+    }
+
+    .mission-inner h1 {
+        font-size: 60px !important;
+    }
+
+    .offertext {
+        margin-top: -25%;
+    }
+    .main-inner h1 {
+        font-size: 25px;
+    }
+
+    .mainwhat-section h1 {
+        font-size: 25px;
+    }
+
+    .mainoffer-section h1 {
+        display: none;
+        font-size: 25px;
+    }
     .getbutton {
         margin-left: 4%;
         width: 88% !important;
         color: white !important;
         font-size: 119%;
     }
-
 
     .card-bg {
         margin-bottom: 22% !important;
